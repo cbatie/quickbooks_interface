@@ -81,13 +81,14 @@ WSGI_APPLICATION = 'quickbooks_interface.wsgi.application'
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'NAME': 'quickbooks',
-       'USER': 'postgres',
-       'PASSWORD': 'engineer',
+       'NAME': 'banqhast_uat',
+       'USER': 'banqphast',
+       'PASSWORD': 'Gq6@FQx7s098',
        'HOST': 'localhost',
-       'PORT': '5432',
+       'PORT': '65320',
    }
 }
+
 
 
 # Password validation

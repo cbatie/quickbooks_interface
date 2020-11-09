@@ -64,6 +64,7 @@ class QuickBooksToken(models.Model):
         }
 
         return det
+<<<<<<< HEAD
 
 class TextAnsible(models.Model):
 
@@ -75,3 +76,7 @@ class TextAnsible(models.Model):
     
     def __str__(self):
         return "%s %s" % (self.testing, self.test_testing)
+=======
+    
+
+>>>>>>> aa072cdbb7d6efa61e8feb88f34a34b65a6f9b22
