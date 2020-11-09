@@ -67,6 +67,6 @@ class QuickBooksToken(models.Model):
     
 class TextAnsibleMigrationsTry(models.Model):
 
-    ansible__test = models.CharField(max_length=250, primary_key=True, unique=True,
+    ansible_test = models.CharField(max_length=250, primary_key=True, unique=True,
                                   default=generate_sso_token)
-    test__testing = models.ForeignKey(CorporateInformation, on_delete=models.CASCADE, related_name="testing")
+    test_testing = models.ForeignKey(CorporateInformation, on_delete=models.CASCADE, related_name="testing")
