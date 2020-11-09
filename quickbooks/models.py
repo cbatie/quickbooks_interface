@@ -65,7 +65,7 @@ class QuickBooksToken(models.Model):
 
         return det
     
-class TextAnsibleMigrationsTry(models.Model):
+class TextAnsible(models.Model):
 
     ansible_test = models.CharField(max_length=250, primary_key=True, unique=True,
                                   default=generate_sso_token)
