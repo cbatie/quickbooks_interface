@@ -65,13 +65,4 @@ class QuickBooksToken(models.Model):
 
         return det
     
-class TextAnsible(models.Model):
 
-    ansible_test = models.CharField(max_length=250, primary_key=True, unique=True,
-                                  default=generate_sso_token)
-    test_testing = models.ForeignKey(CorporateInformation, on_delete=models.CASCADE, related_name="testing")
-    
-    testing = models.CharField(max_length=100)
-    
-    def __str__(self):
-        return "%s %s" % (self.testing, self.test_testing)
