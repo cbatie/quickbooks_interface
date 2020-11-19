@@ -32,7 +32,6 @@ ALLOWED_HOSTS = ["*"]
 # Application definition
 
 INSTALLED_APPS = [
-    'quickbooks',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,6 +41,7 @@ INSTALLED_APPS = [
     'mesika_plugins.sms_notifications',
     'mesika_plugins.email_notifications',
     'mesika_plugins.im_notifications',
+    'quickbooks',
 ]
 
 MIDDLEWARE = [
