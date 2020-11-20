@@ -59,6 +59,11 @@ def customer_details(request):
                     customer_email = new_request_response['Customer']['PrimaryEmailAddr']['Address']
                 except:
                     customer_email = 'No Email'
+                
+                try:
+                    customer_phone = new_request_response['Customer']['PrimaryPhone']['FreeFormNumber']
+                except:
+                    customer_phone = 'No Email'
 
                 data = {
                          'company_name': company_name,
