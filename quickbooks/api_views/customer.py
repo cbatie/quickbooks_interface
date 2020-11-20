@@ -63,14 +63,14 @@ def customer_details(request):
                 try:
                     customer_phone = new_request_response['Customer']['PrimaryPhone']['FreeFormNumber']
                 except:
-                    customer_phone = 'No Email'
+                    customer_phone = 'No Phone'
 
                 data = {
                          'company_name': company_name,
                          'name': customer_name,
                          'email': customer_email,
                          'account_number': account_number,
-                         'phone_number': new_request_response['Customer']['PrimaryPhone']['FreeFormNumber']
+                         'phone_number': customer_phone
 
                        }
 
