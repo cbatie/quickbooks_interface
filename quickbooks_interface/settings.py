@@ -81,7 +81,7 @@ WSGI_APPLICATION = 'quickbooks_interface.wsgi.application'
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-       'NAME': 'banqphast_uat',
+       'NAME': 'banqhast_uat',
        'USER': 'banqphast',
        'PASSWORD': 'Gq6@FQx7s098',
        'HOST': 'localhost',
