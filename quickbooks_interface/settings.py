@@ -38,9 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-#     'mesika_plugins.sms_notifications',
-#     'mesika_plugins.email_notifications',
-#     'mesika_plugins.im_notifications',
+    'mesika_plugins.sms_notifications',
+    'mesika_plugins.email_notifications',
+    'mesika_plugins.im_notifications',
     'quickbooks',
 ]
 
